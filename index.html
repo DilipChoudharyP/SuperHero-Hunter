@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SuperHero Hunter</title>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&family=Montserrat:wght@700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Page container for centering content -->
+    <div id="page-container">
+        <h2>Super Hero Hunter</h2>
+        <!-- Container 1 for search bar, button, and favorites link -->
+        <div id="container1">
+            <input type="text" id="searchbar" placeholder="Type Here">
+            <button>Search</button>
+            <div id="favourites"><a href="favourites.html">Favourites</a></div>
+        </div>
+        <!-- Container for dynamically added card containers -->
+        <div id="container">
+            <div id="card-container">
+                <!-- Card containers will be added dynamically here -->
+            </div>
+        </div>
+    </div>
+    <!-- External JavaScript libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Custom JavaScript files for functionality -->
+    <script src="js/index.js"></script>
+    <script src="js/favourites.js"></script>
+</body>
+
+</html>

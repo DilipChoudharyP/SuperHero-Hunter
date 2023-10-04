@@ -1,0 +1,103 @@
+/* Styling for the main container */
+#container {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+/* Styling for the details section */
+#details {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    position: absolute;
+    left: 40%; /* Positioned to the left with 40% offset */
+}
+
+/* Styling for images within details */
+#details img {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 25px; /* Rounded border */
+    width: 300px;
+    height: 400px;
+    box-sizing: 2px solid white;
+}
+
+/* Styling for the body of the page */
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    background-color: #152238; /* Dark background color */
+    color: white; /* Text color */
+}
+
+/* Styling for the main heading (h1) */
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 50px; /* Large font size */
+    text-align: left; /* Left-align text */
+}
+
+/* Styling for secondary headings (h2) */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+}
+
+/* Styling for additional details section */
+#more-details {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    position: relative;
+    left: -10%; /* Positioned to the left with 10% offset */
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* Styling for return links section */
+#return-pages {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    float: left; /* Floating to the left */
+    widows: 70px;
+    height: 40px;
+    background-color: white; /* White background color */
+}
+
+/* Styling for return links (anchors) */
+#return-pages a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    color: #152238; /* Text color */
+    text-decoration: none; /* Remove underlines from links */
+    padding: 5px;
+}
+
+/* Styling for the favorites section */
+#favourites {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    float: right; /* Floating to the right */
+    color: white; /* Text color */
+    position: relative;
+    top: 20%; /* Positioned 20% from the top */
+}
+
+/* Styling for the header section */
+#head {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    text-align: center; /* Center-align text */
+    color: white; /* Text color */
+}

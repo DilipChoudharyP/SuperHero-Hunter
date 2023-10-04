@@ -1,0 +1,80 @@
+/* Base styles for the entire page */
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #152238; /* Set background color */
+    color: white; /* Set text color */
+}
+
+/* Styles for the background image */
+#img {
+    border-radius: 15px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+}
+
+/* Container for content */
+#container {
+    position: absolute;
+}
+
+/* Styles for images within the container */
+#container img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+/* Container for a specific section */
+#my-contain {
+    width: 500px;
+    height: 120px;
+    position: relative;
+    left: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: #152238;
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Styles for the "Remove from Favorites" button */
+#remove-from-fav {
+    width: 100px;
+    height: 30px;
+    background-color: #152238; /* Set background color */
+    text-align: center;
+    color: white; /* Set text color */
+    font-weight: 800;
+    border-radius: 5px;
+}
+
+/* Styles for headings */
+h2 {
+    color: white; /* Set text color */
+}
+
+/* Styles for links */
+a {
+    text-align: center;
+    color: darkgray; /* Set text color */
+    background-color: greenyellow; /* Set background color */
+}
+
+/* Styles for the main heading */
+h1 {
+    position: relative;
+    top: -25%;
+    color: white; /* Set text color */
+}
+
+/* Button styles */
+.btn {
+    border: 2px 1px solid;
+}

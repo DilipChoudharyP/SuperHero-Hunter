@@ -1,0 +1,169 @@
+/* Reset some default browser styles */
+body, h2, input, button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+
+/* Styling for the entire page */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #000; /* Set a dark background color for the Marvel theme */
+    color: #fff; /* Set text color to white */
+}
+
+/* Styling for the page title */
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+/* Styling for the top container */
+#container1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling for the search bar */
+#searchbar {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 25px;
+    background-color: whitesmoke; /* Set a red background color for the search bar */
+    color: black;
+    text-align: center;
+}
+
+/* Styling for the search button */
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f0141e; /* Use the same red color for the button */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/* Styling for the "Favourites" link */
+#favourites {
+    margin-top: 30px;
+}
+
+#favourites a:hover {
+    color: grey;
+    text-decoration: underline;
+}
+
+#favourites a {
+    text-decoration: none;
+    color: #f0141e; /* Set link color to red */
+}
+
+/* Add a hover effect for the button and search bar */
+button:hover, #searchbar:hover {
+    background-color: darkgrey; /* Slightly transparent red on hover */
+}
+
+/* Styling for the Marvel logo */
+#marvel-logo {
+    width: 100px; /* Set the logo size */
+    margin-bottom: 20px; /* Add spacing below the logo */
+}
+
+/* Additional styles for a Marvel-themed page */
+#container {
+    text-align: center;
+}
+
+/* Responsive layout mixin for smaller screens */
+@mixin sp-layout {
+    @media screen and (max-width: 750px) {
+        @content;
+    }
+}
+
+/* Styling for the hero details page */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: radial-gradient(ellipse at bottom, #0d1d31 0%, #0c0d13 100%);
+    overflow: hidden;
+}
+
+/* Updated styles for the card container */
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    overflow-x: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* Styling for individual hero cards */
+.card {
+    flex: 0 0 300px; /* Fixed width of 300px for each card */
+    height: 500px; /* Fixed height of 500px for each card */
+    margin: 10px; /* Adjust the margin as needed */
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px; /* Apply rounded edges to the cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Ensure content doesn't overflow rounded edges */
+}
+
+.card img {
+    max-width: 100%;
+    height: 400px;
+    border-radius: 10px; /* Apply rounded edges to the images */
+}
+
+.card-details {
+    padding: 10px;
+    text-align: center;
+}
+
+.card-details a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    padding-top: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+/* Styling for the page container with scrolling */
+#page-container {
+    max-height: 100vh; /* Set a maximum height for the page container to fill the viewport */
+    overflow-y: auto; /* Add a vertical scrollbar when content exceeds the max height */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
